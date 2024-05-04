@@ -1,6 +1,7 @@
 $processName = "DungeonCrawler"
-$filePath = "C:\Users\mail\Desktop\dd_timetracker.csv"
-$logPath = "C:\Users\mail\Desktop\logs.txt"
+$baseDirectoryPath = [System.Environment]::GetFolderPath('MyDocuments')
+$filePath = Join-Path -Path $baseDirectoryPath -ChildPath "DD_TimeTracker.csv"
+$logPath = Join-Path -Path $baseDirectoryPath -ChildPath "DD_TimeTracker_Logs.txt"
 
 # This infinite loop will keep the script running, continuously checking for the process.
 while ($true) {
