@@ -1,8 +1,11 @@
 # DungeonCrawler Time Tracker 🕰️
 
 ### Description
-Since Dark & Darker eventually added playtime tracking, I figured why not extend this script to track specific applications like DungeonCrawler? 
-This script serves as your trusty sidekick for monitoring the time your DungeonCrawler adventures consume. It diligently keeps a log of when it starts and stops, because who has time to manually keep track of these things, right?
+Since Dark & Darker eventually added playtime tracking, I figured why not extend this script to track specific applications.
+This script keeps a log of when it starts and stops, because who has time to manually keep track of these things, right?
+
+I run this script as a background task with Task Scheduler to track the the application is opened & then closed.
+Example output of the logs & csv is included in the repo as well.
 
 ### How to Use
 1. Ensure you have PowerShell installed on your system.
